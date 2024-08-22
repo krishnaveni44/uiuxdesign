@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "uiuxdesign",
+			"path": "."
+		},
+		{
+			"name": "assets",
+			"path": "../KARMADEV/Karmadev_Rewamping/assets"
+		},
+		{
+			"name": "hts-cache",
+			"path": "../KARMADEV/Karmadev_Rewamping/hts-cache"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "uiuxdesign"
+	}
+}

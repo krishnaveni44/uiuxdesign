@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sassly HTML5 Template">
+
+  <title>KarmaDev</title>
+
+  <!-- Fav Icon -->
+  <link rel="icon" type="image/x-icon" href="https://crowdytheme.com/html/assets/imgs/logo/favicon.webp">
+
+  <!-- All CSS files -->
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/css/progressbar.css">
+  <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+ 
+  <link rel="stylesheet" href="assets/css/master-online-meeting.css">
+  <link rel="stylesheet" href="assets/css/master-ai-chatbot.css">
+  <link rel="stylesheet" href="assets/css/master-ai-seo.css">
+  <link rel="stylesheet" href="assets/css/master-booking.css">
+  <link rel="stylesheet" href="assets/css/master-customer-service.css">
+  <style type="text/css">
+/* Alignment style */
+body{
+    background: #fff;
+    padding-top: 0;
+}
+.header__logo img{
+  width:170px;
+}
+.hero-area .section-content {
+    background: none;
+    max-width: 600px;
+    padding-left: 20px;
+}
+.hero-area{
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.hero-area-inner{
+    margin-top: 70px;
+}
+.hero-area .section-content .text{
+    font-size: 15px;
+    line-height: 26px;
+}
+.hero-area .section-content .section-title{
+    font-size: 70px;
+    line-height: 72px;
+}
+.hero-area .section-content .subscribe-form .input-field{
+    background: none;
+    padding: 0;
+}
+.hero-area .section-content .subscribe-form .input-field input{
+    background: #fff;
+}
+.hero-area .section-content .subscribe-form .input-field{
+    width: auto;
+}
+.header-area.sticky .header-area__inner{
+    background: none;
+}
+.video-features-area .features-wrapper {
+    padding: 50px;
+}
+.feature-box {
+    background: none;
+    border: none;
+    padding: 0;
+    text-align: left;
+}
+.video-features-area .feature-box .content,
+.video-features-area .feature-box .text{
+    margin-top: 20px;
+}
+.section-content{
+    margin-bottom: 100px;
+}
+.contact-block{
+    margin-top:0;
+}
+.cta-area{
+    padding-bottom: 100px;
+}
+.video-features-area .features-wrapper{
+  grid-template-columns: repeat(auto-fit, minmax(280px, 255px));
+}
+.performance-area .section-title{
+    text-align: left;
+}
+.brand-area .brand-logos{
+    background: none !important;
+}
+.swiper, .swiper-container{
+    width: auto;
+}
+/* UI/UX Designer Partner 
+.video-features-area .section-content{
+  display: block;
+}*/
+
+.dialog-area .title-wrapper h2{
+  text-align: left;
+}
+.dialog-area .title-wrapper h3{
+  font-size: 24px;
+  margin-top: 40px;
+}
+.integration-area .section-header .section-title{
+  max-width: 790px;
+}
+.integration-area .section-header .text{
+  max-width: 640px;
+}
+/* Contact Section */
+.contact-block__item{background-color: #bff0ff;}
+.contact-block__item--meeting {
+    background-color: #00c2ff;
+}
+.contact-block__form-wrap ul li{
+margin-bottom:20px;
+}
+.contact-block__wysiwyg p.pfs2,
+.contact-block__wysiwyg p.pfs3{
+    margin-left:0;
+}
+.contact-block__form-wrap ul li span{
+    color: #0109b5;
+    display: block;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.hs-button {
+    background-color: #00c2ff;
+    border: none;
+    border-radius: 45px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    min-width: 100%;
+    padding: 14px 45px;
+    position: relative;
+    text-align: center;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    transition: background-color .2s ease-in-out
+}
+.ui-datepicker{
+    background: #e6f9ff;
+    border: none;
+    width: 100%;
+}
+.ui-datepicker .ui-datepicker-header{
+    background: none;
+    border: none;
+    margin-bottom: 20px;
+}
+.ui-datepicker th{
+    color: #00c2ff;
+    font-weight: 500;
+}
+.ui-datepicker td span, .ui-datepicker td a{
+    background: none !important;
+    border: none !important;
+    font-weight: 500;
+    margin: 5px 0;
+    text-align: center;
+}
+.ui-datepicker .ui-datepicker-next-hover
+.ui-datepicker .ui-datepicker-prev-hover,
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus{
+    background: none !important;
+    border: none !important;
+}
+  </style>
+</head>
+
+<body class="font-heading-pt-serif-regular">    
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div id="container" class="container-preloader">
+      <div class="animation-preloader">
+        <div class="spinner"></div>
+        <div class="txt-loading">
+          <span data-text="K" class="characters">K</span>
+          <span data-text="A" class="characters">A</span>
+          <span data-text="R" class="characters">R</span>
+          <span data-text="M" class="characters">M</span>
+          <span data-text="A" class="characters">A</span>
+          <span data-text="D" class="characters">D</span>
+          <span data-text="E" class="characters">E</span>
+          <span data-text="V" class="characters">V</span>
+        </div>
+      </div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+  </div>
+
+  <!-- Cursor Animation -->
+  <div class="cursor1"></div>
+
+  <!-- Scroll to top -->
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+    </svg>
+  </div>
+
+
+
+  <!-- Offcanvas start -->
+  <div class="offcanvas-area">
+    <div class="offcanvas-area-meta-wrapper">
+      <span id="close_offcanvas" class="close-offcanvas">
+        <img src="assets/imgs/icon/close.png" alt="close">
+      </span>
+      <div class="offcanvas-btn-wrapper">
+        <a target="_blank" href="https://themeforest.net/item/axtra-digital-agency-creative-portfolio-theme/43074408"
+          class="wc-btn wc-btn-default btn-hover-cropping">Purchase now</a>
+      </div>
+    </div>
+    <div class="offcanvas-area-menu-wrapper">
+      <ul id="accordion" class="accordion">
+        <li>
+          <div class="link">Home <img class="angle-down" src="assets/imgs/icon/angle-down.png" alt="icon image">
+          </div>
+          <ul class="submenu">
+            <li><a href="ai-content-writer.html">AI Content Writer</a></li>
+            <li><a href="ai-image-generator.html">AI Image Generator</a></li>
+            <li><a href="ai-chatbot.html">AI Chatbot</a></li>
+            <li><a href="ai-seo.html">AI SEO Software</a></li>
+            <li><a href="ai-software.html">AI Startups</a></li>
+            <li><a href="ai-video-editor.html">AI Video Editor</a></li>
+            <li><a href="booking.html">Booking Software</a></li>
+            <li><a href="online-meeting.html">Virtual Meeting</a></li>
+            <li><a href="crm.html">CRM Software</a></li>
+            <li><a href="customer-service.html" class="active-page">Customer Support</a></li>
+            <li><a href="mobile-apps.html">Mobile App / SASS</a></li>
+            <li><a href="marketing-automation.html">Marketing automation</a></li>
+          </ul>
+        </li>
+        <li><a href="about.html">About</a></li>
+        <li>
+          <div class="link">Pages<img class="angle-down" src="assets/imgs/icon/angle-down.png" alt="icon image"></div>
+          <ul class="submenu">
+            <li><a href="integration.html">integration</a></li>
+            <li><a href="integration-single.html">integration single</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="404.html">404</a></li>
+            <li><a href="pricing.html">pricing</a></li>
+            <li><a href="faq.html">faq</a></li>
+            <li><a href="all-template.html">video template</a></li>
+            <li><a href="team.html">team page</a></li>
+            <li><a href="privacy-policy.html">privacy policy</a></li>
+          </ul>
+        </li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="faq.html">FaQ</a></li>
+        <li>
+          <div class="link">Blog<img class="angle-down" src="assets/imgs/icon/angle-down.png" alt="icon image"></div>
+          <ul class="submenu">
+            <li><a href="blog.html">Our Blog</a></li>
+            <li><a href="blog-details.html">Blog Details</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- Offcanvas end -->
+
+  <!-- Search modal start -->
+  <div class="modal fade" id="search-template" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="search-template" aria-hidden="true">
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <form action="#" class="form-search">
+            <input type="text" placeholder="Search">
+            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Search modal end -->
+  <!-- Header area start -->
+  <header class="header-area style-1 pos-abs zi-9">
+
+    <div class="container">
+      <div class="header-area__inner">
+        <div class="header__logo">
+          <a href="index.html">
+            <img src="assets/imgs/logo/karmadev-logo.png" class="normal-logo" alt="Site Logo">
+            <img src="assets/imgs/logo/karmadev-logo.png" class="sticky-logo" alt="Site Logo">
+          </a>
+        </div>
+        <div class="header__nav pos-center">
+          <nav class="main-menu">
+            <ul>
+              <li class="menu-item-has-children"><a href="index.html">home</a>
+                <ul class="dp-menu">
+                  <li><a href="ai-content-writer.html">AI Content Writer</a></li>
+                  <li><a href="ai-image-generator.html">AI Image Generator</a></li>
+                  <li><a href="ai-chatbot.html">AI Chatbot</a></li>
+                  <li><a href="ai-seo.html">AI SEO Software</a></li>
+                  <li><a href="ai-software.html">AI Startups</a></li>
+                  <li><a href="ai-video-editor.html">AI Video Editor</a></li>
+                  <li><a href="booking.html">Booking Software</a></li>
+                  <li><a href="online-meeting.html">Virtual Meeting</a></li>
+                  <li><a href="crm.html">CRM Software</a></li>
+                  <li><a href="customer-service.html" class="active-page">Customer Support</a></li>
+                  <li><a href="mobile-apps.html">Mobile App / SASS</a></li>
+                  <li><a href="marketing-automation.html">Marketing automation</a></li>
+                </ul>
+              </li>
+              <li><a href="about.html">about</a></li>
+              <li class="menu-item-has-children">
+                <a href="#">Pages</a>
+                <ul class="dp-menu">
+                  <li><a href="integration.html">integration</a></li>
+                  <li><a href="integration-single.html">integration single</a></li>
+                  <li><a href="about.html">about</a></li>
+                  <li><a href="contact.html">contact</a></li>
+                  <li><a href="404.html">404</a></li>
+                  <li><a href="pricing.html">pricing</a></li>
+                  <li><a href="faq.html">faq</a></li>
+                  <li><a href="all-template.html">video templete</a></li>
+                  <li><a href="team.html">team page</a></li>
+                  <li><a href="privacy-policy.html">privacy policy</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">blog</a>
+                <ul class="dp-menu">
+                  <li><a href="blog.html">blog</a></li>
+                  <li><a href="blog-details.html">blog details</a></li>
+                </ul>
+              </li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__button">
+          <a href="javascript:void(0)" class="wc-btn wc-btn-primary btn-text-flip bordered" data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"> <span data-text="Login">Login</span></a>
+          <a href="javascript:void(0)" class="wc-btn wc-btn-primary btn-text-flip" data-bs-toggle="modal"
+            data-bs-target="#signupform"> <span data-text="Sign up">Sign
+              up</span></a>
+        </div>
+        <div class="header__navicon d-xl-none">
+          <button onclick="showCanvas3()" class="open-offcanvas">
+            <i class="fa-solid fa-bars"></i></button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Header area end -->
+  <div class="has-smooth" id="has_smooth"></div>
+  <div id="smooth-wrapper">
+    <div id="smooth-content">
+      <div class="body-wrapper body-seo">
+  <main>
+
+    <!-- hero area start  -->
+    <section class="hero-area">
+      <div class="container">
+        <div class="hero-area-inner">
+          <div class="section-content">
+            <div class="section-title-wrapper">
+              <div class="title-wrapper">
+                <h1 class="section-title has_fade_anim">Best UX / UI Design Company                </h1>
+              </div>
+            </div>
+            <div class="text-wrapper">
+              <p class="text has_fade_anim" data-delay="0.30">Stay updated with the newest design technology and design trends by collaborating with an expert web app development partner. Transform your web & app idea into a strong multichannel experience with our best UX/UI design services
+              </p>
+            </div>
+            <div class="form-wrapper has_fade_anim" data-delay="0.45">
+              <form action="#" class="subscribe-form">
+              <!-- <div class="input-field">
+                  <span class="icon"><i class="fa-regular fa-envelope"></i></span>
+                  <input type="email" placeholder="Enter your email">
+                </div>-->
+                <button type="submit" class="subscribe-btn wc-btn-primary btn-text-flip"><span
+                    data-text="Get Your Budget">Get Your Budget</span></button>
+              </form>
+            </div>
+          <!--  <div class="feature-list has_fade_anim" data-delay="0.60">
+              <ul>
+                <li><img src="assets/imgs/icon/check-3.webp" alt="icon image">No credit card required</li>
+                <li><img src="assets/imgs/icon/check-3.webp" alt="icon image">14 days free trial</li>
+              </ul>
+            </div>-->
+          </div>
+          <div class="hero-thumb">
+            <div class="img-1">
+              <img src="assets/imgs/gallery/img-s-22.webp" alt="gallery image">
+            </div>
+            <div class="img-2">
+              <img src="assets/imgs/gallery/img-s-23.webp" alt="gallery image">
+            </div>
+            <div class="img-3">
+              <img src="assets/imgs/gallery/img-s-24.webp" data-speed="0.85" alt="gallery image">
+            </div>
+            <div class="img-4">
+              <img src="assets/imgs/gallery/img-s-25.webp" data-speed="1.15" alt="gallery image">
+            </div>
+            <div class="shape-1">
+              <img src="assets/imgs/shape/shape-s-20.webp" alt="shape image">
+            </div>
+            <div class="shape-2">
+              <img src="assets/imgs/shape/shape-s-21.webp" alt="shape image">
+            </div>
+            <div class="shape-3">
+              <img src="assets/imgs/shape/shape-s-22.webp" alt="shape image">
+            </div>
+            <div class="shape-4">
+              <img src="assets/imgs/shape/shape-s-23.webp" alt="shape image">
+            </div>
+            <div class="shape-5">
+              <img src="assets/imgs/shape/shape-s-24.webp" alt="shape image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero area end  -->
+
+
+    <!-- brand area start  -->
+
+    <div class="brand-area section-spacing pb-0">
+        <div class="container">
+          <div class="text-wrapper">
+            <p class="text has_fade_anim">KarmaDev trusted by the great company</p>
+          </div>
+          <div class="brand-logos has_fade_anim">
+            <div class="swiper brand-active">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="logo">
+                    <img src="assets/imgs/brand/img-s-15.webp" alt="logo">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="logo">
+                    <img src="assets/imgs/brand/img-s-16.webp" alt="logo">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="logo">
+                    <img src="assets/imgs/brand/img-s-17.webp" alt="logo">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="logo">
+                    <img src="assets/imgs/brand/img-s-18.webp" alt="logo">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="logo">
+                    <img src="assets/imgs/brand/img-s-19.webp" alt="logo">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- brand area end  -->
+        <!-- video features area start  -->
+        <section class="video-features-area section-spacing pb-0 pin__area1">
+            <div class="container">
+              <div class="features-area-inner">
+                <div class="section-header">
+                  <div class="section-title-wrapper">
+                    <div class="title-wrapper">
+                      <h2 class="section-title has_fade_anim">Why KarmaDev to be your UX/UI Design Partner
+                      </h2>
+                    </div>
+                  </div>
+                  <div class="text-wrapper">
+                    <p class="text has_fade_anim">Want to create an amazing experience for your users? We can help! Our mobile UX/UI design services will transform your idea into a powerful and user-friendly experience that works seamlessly across all devices and platforms.
+                    </p>
+                  </div>
+                </div>
+                <div class="section-content">
+                  <div class="features-wrapper">
+                    <div class="feature-box has_fade_anim">
+                      <div class="thumb">
+                        <img src="assets/imgs/icon/icon-s-4.webp" alt="feature icon">
+                      </div>
+                      <div class="content">
+                        <h3 class="title">User-Centered Design Approach</h3>
+                        <p class="text">Our design team prioritizes users by conducting thorough research to understand their needs and preferences. We create intuitive and engaging web app designs that are both functional and visually appealing.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="feature-box has_fade_anim" >
+                      <div class="thumb">
+                        <img src="assets/imgs/icon/icon-s-5.webp" alt="feature icon">
+                      </div>
+                      <div class="content">
+                        <h3 class="title">Effortless Navigation</h3>
+                        <p class="text">We ensure our web apps designs offer seamless navigation, allowing users to easily move between features. This intuitive navigation enhances user experience and keeps users engaged with your app.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="feature-box has_fade_anim">
+                      <div class="thumb">
+                        <img src="assets/imgs/icon/icon-s-6.webp" alt="feature icon">
+                      </div>
+                      <div class="content">
+                        <h3 class="title">Responsive and Adaptive Design</h3>
+                        <p class="text">Our designs are responsive, ensuring they look and function perfectly on all devices and screen sizes. This consistency across devices boosts user engagement and satisfaction.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="feature-box has_fade_anim" >
+                      <div class="thumb">
+                        <img src="assets/imgs/icon/icon-s-7.webp" alt="feature icon">
+                      </div>
+                      <div class="content">
+                        <h3 class="title">Brand Consistency
+                        </h3>
+                        <p class="text">We align your design with your brand identity, incorporating your logo, colors, typography, and other visual elements. This consistency strengthens brand recognition and loyalty, while providing a cohesive user experience.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="feature-box has_fade_anim" >
+                      <div class="thumb">
+                        <img src="assets/imgs/icon/icon-s-7.webp" alt="feature icon">
+                      </div>
+                      <div class="content">
+                        <h3 class="title">Agile Design Process
+                        </h3>
+                        <p class="text">Our agile design process enables us to swiftly adapt to changes in project requirements, delivering high-quality designs that meet your specific needs. We collaborate with you throughout to ensure your vision is realized in the final design.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="feature-box has_fade_anim" >
+                      <div class="thumb">
+                        <img src="assets/imgs/icon/icon-s-7.webp" alt="feature icon">
+                      </div>
+                      <div class="content">
+                        <h3 class="title">Results-Oriented Approach
+                        </h3>
+                        <p class="text">Our goal is to create designs that drive results. We track and analyze user behavior to optimize and improve performance, ensuring your app continues to meet user needs and achieve your business goals.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="features-thumb pin-spacer">
+                    <div class="pin__element1">
+                    <img src="assets/imgs/gallery/img-s-14.webp" alt="image" class="">
+                  </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- features area end  -->
+
+          <!-- dialog area start  -->
+          <section class="dialog-area">
+            <div class="dialog-area-inner">
+              <div class="section-content section-spacing">
+                <div class="section-title-wrapper">
+                  <div class="title-wrapper">
+                    <h2 class="section-title has_fade_anim">Thinking About Launching a New Product?
+                      </h2>
+                  </div>
+                </div>
+                <div class="text-wrapper">
+                  <p class="text has_fade_anim">Effective branding can help you stand out and communicate your message to your audience.
+                  </p>
+                </div>
+                <div class="section-title-wrapper">
+                  <div class="title-wrapper">
+                    <h3 class="section-title has_fade_anim">Not Satisfied with Your Current Brand's Engagement?
+                    </h3>
+                  </div>
+                </div>
+                <div class="text-wrapper">
+                  <p class="text has_fade_anim">Rebranding can create a fresh identity, engaging users and attracting new market segments.
+
+                  </p>
+                </div>
+                <div class="feature-list-box has_fade_anim">
+                  <div class="feature-list">
+                    <div class="feature-list-item">
+                      <span class="icon">
+                        <img src="assets/imgs/icon/check.webp" alt="icon image">
+                      </span>
+                      <p class="text"><strong>Key Services:</strong>
+                      </p>
+                    </div>
+                    <div class="feature-list-item">
+                      <span class="icon">
+                        <img src="assets/imgs/icon/check.webp" alt="icon image">
+                      </span>
+                      <p class="text"><span>Visual Identity</span></p>
+                    </div>
+                    <div class="feature-list-item">
+                      <span class="icon">
+                        <img src="assets/imgs/icon/check.webp" alt="icon image">
+                      </span>
+                      <p class="text"><span>Brand Strategy                      </span></p>
+                    </div>
+                    <div class="feature-list-item">
+                      <span class="icon">
+                        <img src="assets/imgs/icon/check.webp" alt="icon image">
+                      </span>
+                      <p class="text"><span>Logo Design                      </span></p>
+                    </div>
+                    <div class="feature-list-item">
+                      <span class="icon">
+                        <img src="assets/imgs/icon/check.webp" alt="icon image">
+                      </span>
+                      <p class="text"><span>Brand Archetype and Personality
+                      </span></p>
+                    </div>
+                  </div>
+                </div>
+             <!--   <div class="btn-wrapper has_fade_anim">
+                  <a href="contact.html" class="wc-btn wc-btn-primary btn-text-flip"> <span
+                      data-text="Start chatting">Start chatting</span></a>
+                </div>-->
+              </div>
+              <div class="dialog-thumb-wraper">
+                <div class="dialog-thumb">
+                  <div class="shape-1">
+                    <img src="assets/imgs/gallery/img-s-18.webp" data-speed="0.7" alt="dialog image">
+                  </div>
+                  <div class="shape-main">
+                    <img src="assets/imgs/gallery/img-s-17.webp" alt="dialog image">
+                  </div>
+                </div>
+                <div class="feature-list">
+                  <div class="feature-item">
+                    <p><img src="assets/imgs/icon/imoji-1.webp" alt="imoji icon"> Reword this email to be more friendly
+                    </p>
+                  </div>
+                  <div class="feature-item">
+                    <p><img src="assets/imgs/icon/imoji-4.webp" alt="imoji icon"> Why would someone want on pizza?</p>
+                  </div>
+                  <div class="feature-item">
+                    <p><img src="assets/imgs/icon/imoji-3.webp" alt="imoji icon"> What are some counter-points to this
+                      argument?</p>
+                  </div>
+                  <div class="feature-item">
+                    <p><img src="assets/imgs/icon/imoji-2.webp" alt="imoji icon"> Generate ideas for fun giveaway
+                      prizes.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- dialog area end  -->
+
+          <!-- performance area start  -->
+          <section class="performance-area section-spacing pin__area">
+            <div class="container">
+              <div class="performance-area-inner">
+                <div class="section-content pin__element">
+                  <div class="section-title-wrapper">
+                   <!-- <div class="subtitle-wrapper">
+                      <span class="section-subtitle has_fade_anim">SEO performance</span>
+                    </div>-->
+                    <div class="title-wrapper">
+                      <h2 class="section-title has_fade_anim">Our UX/UI Design  Process
+                      </h2>
+                    </div>
+                  </div>
+                  <div class="text-wrapper">
+                    <p class="text has_fade_anim">From concept to design, we transform your idea into a seamless visual experience
+                    </p>
+                  </div>
+                  <div class="btn-wrapper has_fade_anim">
+                    <a href="contact.html" class="wc-btn wc-btn-primary btn-text-flip"> <span
+                        data-text="Get Your Design">Get Your Design </span></a>
+                  </div>
+                </div>
+                <div class="performance-features-wrapper-box">
+                  <div class="performance-features-wrapper has_fade_anim">
+                    <div class="feature-box">
+                      <div class="thumb">
+                        <img src="assets/imgs/icon/icon-s-29.webp" alt="feature icon">
+                      </div>
+                      <div class="content">
+                        <h3 class="title">Phase One: <br />Discussion</h3>
+                        <p class="text">We'll have extensive conversations, but more importantly, we'll listen closely. Understanding how you perceive your brand and how you want others to see it is crucial. If you're not sure yet, we'll help you find your voice and message, and the best way to communicate it. Our team is here to turn your vision into reality.</p>
+                      </div>
+                    </div>
+                    <div class="feature-box">
+                      <div class="thumb">
+                        <img src="assets/imgs/icon/icon-s-30.webp" alt="feature icon">
+                      </div>
+                      <div class="content">
+                        <h3 class="title">Phase Two: <br />Research</h3>
+                        <p class="text">This stage is vital because perceptions can differ. We’ll conduct market research and analyze competitors and target audiences to create a design that is both intuitive and user-friendly.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="feature-box">
+                      <div class="thumb">
+                        <img src="assets/imgs/icon/icon-s-31.webp" alt="feature icon">
+                      </div>
+                      <div class="content">
+                        <h3 class="title">Phase Three: <br />Wireframes & Prototypes</h3>
+                        <p class="text">With a clear design concept, we begin creating wireframes and prototypes. Our developers are involved at this stage to address technical aspects. Our goal is to turn your vision into reality efficiently and effectively.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="feature-box">
+                      <div class="thumb">
+                        <img src="assets/imgs/icon/icon-s-32.webp" alt="feature icon">
+                      </div>
+                      <div class="content">
+                        <h3 class="title">Phase Four: <br />Design Process</h3>
+                        <p class="text">We bring the selected designs to life, ensuring a balance between style and function. Our commitment is to create a design that meets both aesthetic and practical needs.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="feature-box">
+                      <div class="thumb">
+                        <img src="assets/imgs/icon/icon-s-29.webp" alt="feature icon">
+                      </div>
+                      <div class="content">
+                        <h3 class="title">Phase Five: <br />Testing</h3>
+                        <p class="text">Early-stage testing with wireframes helps identify potential design flaws. Before launch, our QA team conducts a thorough final test to ensure a positive user experience.
+                        </p>
+                      </div>
+                    </div>
+
+ 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- performance area end  -->
+
+          <!-- integration area start  -->
+          <section class="integration-area section-spacing">
+            <div class="container">
+              <div class="integration-area-inner">
+                <div class="section-header">
+                  <div class="section-title-wrapper">
+                   <!-- <div class="subtitle-wrapper">
+                      <span class="section-subtitle has_fade_anim">Integration</span>
+                    </div>-->
+                    <div class="title-wrapper">
+                      <h2 class="section-title has_fade_anim">Technologies That Strengthens Our<br />
+                        UX/UI Design</h2>
+                    </div>
+                  </div>
+                  <div class="text-wrapper">
+                    <p class="text has_fade_anim">Integrating high level tech to power your designs to new heights in business
+                    </p>
+                  </div>
+                </div>
+                <div class="logos-wrapper-box">
+                  <div class="logos-wrapper has_fade_anim">
+                    <div class="logo-box">
+                      <img src="assets/imgs/icon/icon-app-1.webp" alt="app icon">
+                    </div>
+                    <div class="logo-box">
+                      <img src="assets/imgs/icon/icon-app-2.webp" alt="app icon">
+                    </div>
+                    <div class="logo-box">
+                      <img src="assets/imgs/icon/icon-app-3.webp" alt="app icon">
+                    </div>
+                    <div class="logo-box">
+                      <img src="assets/imgs/icon/icon-app-4.webp" alt="app icon">
+                    </div>
+                    <div class="logo-box">
+                      <img src="assets/imgs/icon/icon-app-5.webp" alt="app icon">
+                    </div>
+                    <div class="logo-box">
+                      <img src="assets/imgs/icon/icon-app-6.webp" alt="app icon">
+                    </div>
+                  </div>
+                  <div class="logo-box-all has_fade_anim" data-delay="0.25">
+                    <h3 class="title">2k+</h3>
+                    <p class="text">integrations</p>
+                    <div class="btn-wrapper">
+                      <a href="integration.html" class="wc-btn wc-btn-primary btn-text-flip"> <span
+                          data-text="Discover all">Discover all</span></a>
+                    </div>
+                  </div>
+                  <div class="logos-wrapper has_fade_anim" data-delay="0.35">
+                    <div class="logo-box">
+                      <img src="assets/imgs/icon/icon-app-7.webp" alt="app icon">
+                    </div>
+                    <div class="logo-box">
+                      <img src="assets/imgs/icon/icon-app-8.webp" alt="app icon">
+                    </div>
+                    <div class="logo-box">
+                      <img src="assets/imgs/icon/icon-app-9.webp" alt="app icon">
+                    </div>
+                    <div class="logo-box">
+                      <img src="assets/imgs/icon/icon-app-10.webp" alt="app icon">
+                    </div>
+                    <div class="logo-box">
+                      <img src="assets/imgs/icon/icon-app-11.webp" alt="app icon">
+                    </div>
+                    <div class="logo-box">
+                      <img src="assets/imgs/icon/icon-app-12.webp" alt="app icon">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- integration area end  -->
+            <!-- cta area start  -->
+          <section class="cta-area section-spacing">
+            <div class="container">
+              <div class="cta-area-inner">
+                <div class="section-content">
+                  <div class="section-title-wrapper">
+                    <div class="title-wrapper">
+                      <h2 class="section-title has_fade_anim">Download the
+                        KarmaDev app </h2>
+                    </div>
+                  </div>
+                  <div class="text-wrapper">
+                    <p class="text has_fade_anim">Ability to understand and generate content in different to expand
+                      their reach and
+                      appeal to a wider audience.</p>
+                  </div>
+                  <div class="apps-wrapper-box has_fade_anim">
+                    <div class="apps-wrapper">
+                      <a href="#">
+                        <div class="app-box">
+                          <img src="assets/imgs/gallery/google-store.webp" alt="store icon image">
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div class="app-box">
+                          <img src="assets/imgs/gallery/apple-store.webp" alt="store icon image">
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="cta-thumb">
+                  <img src="assets/imgs/gallery/img-s-7.webp" alt="app image">
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- cta area end  -->
+          <section class="contact-block contact-block--horizontal js-hubspot-form-section ai-section section--indents-large">
+            <div class="ai-section__inner">
+              <div class="contact-block__grid">
+        
+                          <div class="contact-block__item contact-block__item--meeting">
+                    <span class="contact-block__grid-separator pfs7">or</span>
+                    <div class="ai-container-m">
+                      <div class="contact-block__item-inner">
+                        
+                        <div class="contact-block__item-coll">
+                          <div class="meeting-heading mb-last-0">
+                                                  <h4 class="meeting-title pfs3 mb-last-0">Book a meeting</h4>
+                                                                      <p class="meeting-info meeting-info--phone pfs8 mb-last-0">
+                                <span class="meeting-info__title">
+                                  Call (Toll-Free*)</span>
+                                <span class="meeting-info__value">
+                                  <a href="tel:+18009170207"
+                                     class="meeting-info__link">+1 (800) 917-0207</a>
+                                </span>
+                              </p>
+                                                                      <p class="meeting-info meeting-info--email pfs8 mb-last-0">
+                                <span class="meeting-info__title">Email</span>
+                                <span class="meeting-info__value">
+                                  <a href="mailto:hello@avenga.com" class="meeting-info__link">
+                                    hello@avenga.com                          </a>
+                                </span>
+                              </p>
+                                                                      <p class="meeting-info meeting-info--zoom pfs8 mb-last-0">
+                                <span class="meeting-info__title">Zoom</span>
+                                <span class="meeting-info__value">30 min</span>
+                              </p>
+                                              </div>
+        <!-- Calendar Start-->
+                                              <div class="contact-block__calendar">
+                              <div class="calendar-container js-calendar"></div>
+                              <div class="datepicker"></div>
+                              <p class="contact-block__note pfs8">
+                                * US and Canada, exceptions apply                      </p>
+                            </div>
+                            <!--Calendar End -->
+                                          </div>
+                      </div>
+        
+                    </div>
+                  </div>
+                
+                          <div class="contact-block__item contact-block__item--form">
+                    <div class="ai-container-m">
+                      <div class="contact-block__item-inner">
+        
+                        <div class="contact-block__item-coll">
+                                              <div class="contact-block__wysiwyg wysiwyg mb-last-0"><p class="pfs3">Ready to innovate your business?</p>
+        <p class="pfs2">We are! Let’s kick-off our journey to success!</p>
+        </div>
+                                                                <div class="contact-block__form-wrap">
+                                                                    <ul>
+                                                                        <li><input type="text" placeholder="Full name" /></li>
+                                                                        <li><input type="email" placeholder="Email address" required /><span>Please complete this required field</span></li>
+                                                                        <li><textarea>Message*</textarea></li>
+                                                                        <li><input type="checkbox" id="agree" /> <label for="agree">Yes, I have read and agree to the <a href="#">Data Privacy</a> and <a href="#"> Legal Notice.*</a></label> </li>
+                                                                        <li><input type="submit" value="Send" class="hs-button" /></li>
+                                                                    </ul>
+                                                                </div>
+                                          </div>
+        
+                        
+                      </div>
+                    </div>
+                  </div>
+                
+              </div>
+            </div>
+          </section>
+        
+
+</main>
+</div>
+</div>
+</div>
+  <!-- All JS files -->
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/gsap.min.js"></script>
+  <script src="assets/js/ScrollSmoother.min.js"></script>
+  <script src="assets/js/ScrollToPlugin.min.js"></script>
+  <script src="assets/js/ScrollTrigger.min.js"></script>
+  <script src="assets/js/jquery.meanmenu.min.js"></script>
+  <script src="assets/js/backToTop.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/error-handling.js"></script>
+  <script src="assets/js/offcanvas.js"></script>
+
+  <script>
+   
+    // testimonial slider
+    if (('.testimonial-slider').length) {
+      var testimonial_slider = new Swiper(".testimonial-slider", {
+        loop: false,
+        slidesPerView: 1,
+        spaceBetween: 30,
+        speed: 1800,
+        freeMode: true,
+        watchSlidesProgress: true,
+        navigation: {
+          prevEl: ".testimonial-button-prev",
+          nextEl: ".testimonial-button-next",
+        },
+        pagination: {
+          el: '.testimonial-pagination',
+          type: 'bullets',
+        },
+        breakpoints: {
+          // when window width is >= px
+          576: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          992: {
+            slidesPerView: 2,
+          },
+          1201: {
+            slidesPerView: 3,
+          },
+          1367: {
+            slidesPerView: 4.4,
+          },
+        }
+      });
+    }
+
+    // brand_slider_active
+    if ('.brand-active') {
+      var brand_slider_active = new Swiper(".brand-active", {
+        slidesPerView: 5,
+        loop: true,
+        autoplay: true,
+        spaceBetween: 60,
+        speed: 3000,
+        autoplay: {
+          delay: .1,
+          disableOnInteraction: false,
+        },
+        breakpoints: {
+          // when window width is >= 320px
+          375: {
+            slidesPerView: 2,
+            spaceBetween: 0,
+          },
+          // when window width is >= 480px
+          480: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 4,
+            spaceBetween: 40
+          },
+          // when window width is >= 1366px
+          1366: {
+            slidesPerView: 5,
+          },
+        }
+      });
+    }
+
+    const toggle_switcher = function ($scope) {
+      const checked = $("input", $scope);
+      const toggle_pane = $(".toggle-pane", $scope);
+      const toggle_label = $(".before_label, .after_label", $scope);
+
+      checked.change(function () {
+        toggle_pane.toggleClass('show');
+        toggle_label.toggleClass('active');
+      })
+    }
+
+
+    // Get references to the button and the element to remove
+    const button = document.getElementById('removeButton');
+    const elementToRemove = document.getElementById('elementToRemove');
+
+ 
+
+     //Calendar
+     jQuery.noConflict();
+jQuery(document).ready(function($) {
+  $( ".datepicker" ).datepicker();
+});
+
+
+
+  </script>
+
+</body>
+
+</html>
